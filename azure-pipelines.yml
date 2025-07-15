@@ -2,7 +2,7 @@ trigger:
 - build-pipeline
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: MyAgentPool
 
 variables:
   buildConfiguration: 'Release'
